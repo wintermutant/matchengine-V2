@@ -1,0 +1,11 @@
+{
+  "SAMPLE_ID": "5d2799d86756630d8dd065b8",
+  "MRN": "1035",
+  "GENDER": "Male",
+  "VITAL_STATUS": "alive",
+  "BIRTH_DATE": "1948-09-02",
+  "ONCOTREE_PRIMARY_DIAGNOSIS_NAME": "Non-Small Cell Lung Cancer",
+  "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": 6.2,
+  "MMR_STATUS": "Proficient (MMR-P / MSS)",
+  "REPORT_DATE": ""
+}
