@@ -1,0 +1,11 @@
+{
+  "SAMPLE_ID": "5d2799d86756630d8dd065b9",
+  "MRN": "1036",
+  "GENDER": "Female",
+  "VITAL_STATUS": "alive",
+  "BIRTH_DATE": "1962-03-15",
+  "ONCOTREE_PRIMARY_DIAGNOSIS_NAME": "Non-Small Cell Lung Cancer",
+  "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": 4.1,
+  "MMR_STATUS": "Proficient (MMR-P / MSS)",
+  "REPORT_DATE": ""
+}
