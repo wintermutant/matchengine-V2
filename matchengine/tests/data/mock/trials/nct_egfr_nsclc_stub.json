@@ -1,0 +1,280 @@
+{
+  "protocol_no": "NCT02477839",
+  "nct_id": "NCT02477839",
+  "status": "open to accrual",
+  "_summary": {
+    "status": [{"value": "open to accrual"}],
+    "short_title": "FLAURA: Osimertinib vs Standard EGFR-TKI as First-Line Treatment in EGFRm Advanced NSCLC",
+    "long_title": "A Phase III, Double-Blind, Randomised Study of Osimertinib Versus Gefitinib or Erlotinib in Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer Whose Tumours Have EGFR Exon 19 Deletions or Exon 21 L858R Mutations",
+    "phase": "Phase III",
+    "accrual_goal": 556,
+    "sponsor": "AstraZeneca",
+    "age": ">=18 years",
+    "gender": "All",
+    "disease_status": ["Locally Advanced", "Metastatic"],
+    "prior_treatment_requirements": [
+      "No prior EGFR-TKI therapy",
+      "No prior systemic therapy for locally advanced or metastatic NSCLC"
+    ],
+    "investigator": {
+      "full_name": "James Chih-Hsin Yang",
+      "institution_name": "National Taiwan University Hospital",
+      "staff_role": "Principal Investigator"
+    },
+    "site": [
+      {
+        "site_name": "Dana-Farber Cancer Institute",
+        "coordinating_center": "Y",
+        "site_status": "open to accrual"
+      }
+    ],
+    "disease_keywords": [
+      "Non-Small Cell Lung Cancer", "NSCLC", "EGFR mutation",
+      "Exon 19 deletion", "L858R", "Osimertinib", "AZD9291", "EGFR-TKI"
+    ],
+    "drugs": [
+      {
+        "name": "Osimertinib",
+        "synonyms": ["AZD9291", "Tagrisso"],
+        "type": "EGFR tyrosine kinase inhibitor"
+      }
+    ]
+  },
+  "_ctgov": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02477839",
+        "orgStudyIdInfo": {"id": "D5160C00001"},
+        "secondaryIdInfos": [{"id": "2014-001372-22", "type": "EUDRACT_NUMBER"}],
+        "organization": {"fullName": "AstraZeneca", "class": "INDUSTRY"},
+        "briefTitle": "FLAURA: Osimertinib Versus Gefitinib or Erlotinib in Patients With EGFRm Advanced NSCLC",
+        "officialTitle": "A Phase III, Double-Blind, Randomised Study of AZD9291 (Osimertinib) Versus Gefitinib or Erlotinib in Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer (EGFRm+) Whose Disease Has Not Previously Been Treated With EGFR-TKI Therapy"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2019-04",
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {"date": "2014-12-01", "type": "ACTUAL"},
+        "primaryCompletionDateStruct": {"date": "2017-06-12", "type": "ACTUAL"},
+        "completionDateStruct": {"date": "2019-03-01", "type": "ACTUAL"},
+        "studyFirstSubmitDate": "2014-06-17",
+        "studyFirstPostDateStruct": {"date": "2014-06-23", "type": "ESTIMATED"},
+        "lastUpdatePostDateStruct": {"date": "2019-04-30", "type": "ACTUAL"}
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {"type": "SPONSOR"},
+        "leadSponsor": {"name": "AstraZeneca", "class": "INDUSTRY"}
+      },
+      "oversightModule": {"oversightHasDmc": true},
+      "descriptionModule": {
+        "briefSummary": "The purpose of this trial is to assess the efficacy and safety of osimertinib (AZD9291) compared with standard-of-care EGFR-TKI therapy (gefitinib or erlotinib) as first-line treatment in patients with locally advanced or metastatic EGFR-mutated (exon 19 deletion or exon 21 L858R) non-small cell lung cancer.",
+        "detailedDescription": "This is a Phase III, double-blind, randomised, parallel-group, multi-centre study. Patients with locally advanced or metastatic EGFR-mutated (Ex19del or L858R) NSCLC who have not received prior EGFR-TKI therapy will be randomised 1:1 to receive osimertinib 80mg once daily orally or standard EGFR-TKI (gefitinib 250mg once daily or erlotinib 150mg once daily) until disease progression, unacceptable toxicity, or other discontinuation criteria are met. The primary endpoint is progression-free survival as assessed by investigator. Overall survival is a key secondary endpoint."
+      },
+      "conditionsModule": {
+        "conditions": ["Non-Small Cell Lung Cancer"],
+        "keywords": ["NSCLC", "EGFR mutation", "Exon 19 deletion", "L858R", "Osimertinib", "AZD9291", "EGFR-TKI", "First-line"]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": ["PHASE3"],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "DOUBLE",
+            "whoMasked": ["PARTICIPANT", "INVESTIGATOR"]
+          }
+        },
+        "enrollmentInfo": {"count": 556, "type": "ACTUAL"}
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "Osimertinib",
+            "type": "EXPERIMENTAL",
+            "description": "Osimertinib 80mg orally once daily",
+            "interventionNames": ["Drug: Osimertinib"]
+          },
+          {
+            "label": "Standard EGFR-TKI",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Gefitinib 250mg or erlotinib 150mg orally once daily",
+            "interventionNames": ["Drug: Gefitinib", "Drug: Erlotinib"]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Osimertinib",
+            "description": "Active Substance: Osimertinib (AZD9291). Pharmaceutical Form: Tablet. Concentration: 80mg. Route of Administration: oral, once daily.",
+            "armGroupLabels": ["Osimertinib"],
+            "otherNames": ["AZD9291", "Tagrisso"]
+          },
+          {
+            "type": "DRUG",
+            "name": "Gefitinib",
+            "description": "Active Substance: Gefitinib. Pharmaceutical Form: Tablet. Concentration: 250mg. Route of Administration: oral, once daily.",
+            "armGroupLabels": ["Standard EGFR-TKI"],
+            "otherNames": ["Iressa", "ZD1839"]
+          },
+          {
+            "type": "DRUG",
+            "name": "Erlotinib",
+            "description": "Active Substance: Erlotinib. Pharmaceutical Form: Tablet. Concentration: 150mg. Route of Administration: oral, once daily.",
+            "armGroupLabels": ["Standard EGFR-TKI"],
+            "otherNames": ["Tarceva", "OSI-774"]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Progression-Free Survival (PFS) by Investigator Assessment",
+            "description": "PFS is defined as the time from randomization until the date of objective disease progression or death (by any cause in the absence of progression), regardless of whether the patient withdraws from randomized therapy or receives another anti-cancer therapy prior to progression.",
+            "timeFrame": "From date of randomization until disease progression or death, up to approximately 35 months"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Overall Survival (OS)",
+            "description": "OS is defined as the time from the date of randomization until death due to any cause.",
+            "timeFrame": "From date of randomization until death, up to approximately 5 years"
+          },
+          {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "Percentage of patients with confirmed complete response (CR) or partial response (PR) per RECIST 1.1.",
+            "timeFrame": "From date of randomization until disease progression, up to approximately 35 months"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient is >=18 years of age\n* Histologically or cytologically confirmed locally advanced or metastatic NSCLC not amenable to curative surgery or radiotherapy\n* Tumour EGFR mutation status must be known prior to randomisation; patient must have confirmed EGFR activating mutation (exon 19 deletion or exon 21 L858R mutation) from a tumour sample\n* No prior treatment with an EGFR-TKI\n* No prior chemotherapy or other systemic therapy for locally advanced or metastatic NSCLC\n* Measurable disease per RECIST 1.1\n* WHO Performance Status 0 or 1\n* Adequate bone marrow, hepatic, and renal function\n\nExclusion Criteria:\n\n* Prior treatment with any EGFR-TKI (e.g. gefitinib, erlotinib, afatinib, osimertinib)\n* Any evidence of severe or uncontrolled systemic diseases\n* Mean resting corrected QT interval (QTcF) >470 ms\n* Past medical history of interstitial lung disease, drug-induced interstitial lung disease, or any evidence of interstitial lung disease\n* Spinal cord compression unless patient has recovered and is stable for >=4 weeks\n* Known brain metastases or spinal cord compression not yet definitively treated with surgery or radiation",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "stdAges": ["ADULT", "OLDER_ADULT"]
+      },
+      "contactsLocationsModule": {
+        "overallOfficials": [
+          {
+            "name": "James Chih-Hsin Yang",
+            "affiliation": "National Taiwan University Hospital",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {"facility": "Dana-Farber Cancer Institute", "city": "Boston", "state": "Massachusetts", "zip": "02215", "country": "United States"},
+          {"facility": "Massachusetts General Hospital", "city": "Boston", "state": "Massachusetts", "zip": "02114", "country": "United States"},
+          {"facility": "MD Anderson Cancer Center", "city": "Houston", "state": "Texas", "zip": "77030", "country": "United States"},
+          {"facility": "Memorial Sloan Kettering Cancer Center", "city": "New York", "state": "New York", "zip": "10065", "country": "United States"},
+          {"facility": "National Taiwan University Hospital", "city": "Taipei", "country": "Taiwan"},
+          {"facility": "Gustave Roussy", "city": "Villejuif", "country": "France"},
+          {"facility": "The Royal Marsden NHS Foundation Trust", "city": "London", "country": "United Kingdom"}
+        ]
+      }
+    }
+  },
+  "treatment_list": {
+    "step": [
+      {
+        "step_internal_id": 1,
+        "step_code": "1",
+        "step_type": "Registration",
+        "match": [
+          {
+            "and": [
+              {
+                "genomic": {
+                  "hugo_symbol": "EGFR",
+                  "variant_category": "Mutation"
+                }
+              },
+              {
+                "clinical": {
+                  "age_numerical": ">=18",
+                  "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                }
+              }
+            ]
+          }
+        ],
+        "arm": [
+          {
+            "arm_internal_id": 1,
+            "arm_code": "ARM A",
+            "arm_description": "Osimertinib 80mg orally once daily",
+            "arm_suspended": "N",
+            "match": [
+              {
+                "and": [
+                  {
+                    "genomic": {
+                      "hugo_symbol": "EGFR",
+                      "variant_classification": "In_Frame_Del",
+                      "variant_category": "Mutation"
+                    }
+                  },
+                  {
+                    "clinical": {
+                      "age_numerical": ">=18",
+                      "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "arm_internal_id": 2,
+            "arm_code": "ARM B",
+            "arm_description": "Gefitinib 250mg or Erlotinib 150mg orally once daily (investigator choice)",
+            "arm_suspended": "N",
+            "match": [
+              {
+                "and": [
+                  {
+                    "genomic": {
+                      "hugo_symbol": "EGFR",
+                      "variant_category": "Mutation"
+                    }
+                  },
+                  {
+                    "clinical": {
+                      "age_numerical": ">=18",
+                      "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "arm_internal_id": 3,
+            "arm_code": "ARM C",
+            "arm_description": "Osimertinib for EGFR Exon 21 L858R — exact protein match required",
+            "arm_suspended": "N",
+            "match": [
+              {
+                "and": [
+                  {
+                    "genomic": {
+                      "hugo_symbol": "EGFR",
+                      "protein_change": "p.L858R",
+                      "variant_category": "Mutation"
+                    }
+                  },
+                  {
+                    "clinical": {
+                      "age_numerical": ">=18",
+                      "oncotree_primary_diagnosis": "Non-Small Cell Lung Cancer"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
