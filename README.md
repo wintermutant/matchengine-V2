@@ -59,3 +59,27 @@ SECRETS_JSON=SECRETS_JSON.json .venv/bin/python -m pytest matchengine/tests/test
 ```bash
 SECRETS_JSON=SECRETS_JSON.json .venv/bin/python -m pytest matchengine/tests/ -v
 ```
+
+# Dev
+
+To run new patient data and trials, do the following:
+
+1. Place the data in the appropriate folder to match the data version: for example, v1_data/ (root level)
+   1. The data for clinical, genomic, and trial should be split into the v1_data/clinical, v1_data/trials, and v1_data/genomic folders
+2. Run the matching!
+   1. SECRETS=SECRETS_JSON.json .venv/bin/python -m matchengine.main load -t v1_data/trials/ -c v1_data/clinical/ -g v1_data/genomic --trial-form json --patient-format json --db v1
+
+Important:
+- This data gets stored in the mongodb database under the **database named v1** (see the *--db v1* option which overrode where to store the results)
+- Use MongoDB Compass to look at the results
+
+## Creating a clinical trial report
+
+Once the matching data is in the Mongo database, you can simply export the full trial_match collection as JSON. Ensure you also export the clinical and genomic collections as well. There are 3 pieces of custom for each report that will be needed per patient:
+
+1. trial_match data - query for the specific patient
+2. clinical - query for the specific patient
+3. genomic - query for the specific patient
+
+The ctm-report-preview repo has functionality that will ingest those 3 files and create a nice PDF report for you :-)
+
