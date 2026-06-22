@@ -4,3 +4,8 @@ tests/__pycache__/*
 *.pyc
 *.egg-info
 build
+
+# version1 dataset — real patient data, not committed
+matchengine/tests/data/version1/clinical/*.json
+matchengine/tests/data/version1/genomic/*.json
+matchengine/tests/data/version1/trials/*.json

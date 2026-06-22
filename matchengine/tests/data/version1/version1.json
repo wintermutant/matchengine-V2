@@ -1,0 +1,496 @@
+{
+  "clinical": [
+    {
+      "SAMPLE_ID": "12230850",
+      "ONCOTREE_PRIMARY_DIAGNOSIS_NAME": "Breast Invasive Carcinoma",
+      "PRIMARY_DIAGNOSIS_RAW": "malignant neoplasm of overlapping sites of left breast, estrogen receptor positive",
+      "BIRTH_DATE": "1971-06-04",
+      "VITAL_STATUS": "Alive",
+      "GENDER": "Female",
+      "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": null,
+      "REPORT_DATE": null,
+      "_updated": "2026-06-22T19:14:20.641422+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "ONCOTREE_PRIMARY_DIAGNOSIS_NAME": "Non-Small Cell Lung Cancer",
+      "PRIMARY_DIAGNOSIS_RAW": "malignant neoplasm of lower lobe of right lung",
+      "BIRTH_DATE": "1998-04-03",
+      "VITAL_STATUS": "Alive",
+      "GENDER": "Female",
+      "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": null,
+      "REPORT_DATE": null,
+      "_updated": "2026-06-22T19:14:20.641456+00:00"
+    },
+    {
+      "SAMPLE_ID": "7439568",
+      "ONCOTREE_PRIMARY_DIAGNOSIS_NAME": "Lung Adenocarcinoma",
+      "PRIMARY_DIAGNOSIS_RAW": "primary lung adenocarcinoma",
+      "BIRTH_DATE": "1953-01-28",
+      "VITAL_STATUS": "Alive",
+      "GENDER": "Male",
+      "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": null,
+      "REPORT_DATE": null,
+      "_updated": "2026-06-22T19:14:20.641529+00:00"
+    },
+    {
+      "SAMPLE_ID": "28067276",
+      "ONCOTREE_PRIMARY_DIAGNOSIS_NAME": "Acute Leukemia",
+      "PRIMARY_DIAGNOSIS_RAW": "acute leukemia not having received remission",
+      "BIRTH_DATE": "1956-07-21",
+      "VITAL_STATUS": "Alive",
+      "GENDER": "Female",
+      "TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE": null,
+      "REPORT_DATE": null,
+      "_updated": "2026-06-22T19:14:20.641538+00:00"
+    }
+  ],
+  "genomic": [
+    {
+      "SAMPLE_ID": "12230850",
+      "TRUE_HUGO_SYMBOL": "Microsatellite Instability",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641431+00:00",
+      "MMR_STATUS": "MSI-L"
+    },
+    {
+      "SAMPLE_ID": "12230850",
+      "TRUE_HUGO_SYMBOL": "ERBB3",
+      "VARIANT_CATEGORY": "CNV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641436+00:00",
+      "CNV_CALL": "positive"
+    },
+    {
+      "SAMPLE_ID": "12230850",
+      "TRUE_HUGO_SYMBOL": "ESR1",
+      "VARIANT_CATEGORY": "CNV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641438+00:00",
+      "CNV_CALL": "positive"
+    },
+    {
+      "SAMPLE_ID": "12230850",
+      "TRUE_HUGO_SYMBOL": "CCNE1",
+      "VARIANT_CATEGORY": "CNV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641439+00:00",
+      "CNV_CALL": "positive"
+    },
+    {
+      "SAMPLE_ID": "12230850",
+      "TRUE_HUGO_SYMBOL": "AR",
+      "VARIANT_CATEGORY": "CNV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641440+00:00",
+      "CNV_CALL": "positive"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MSI",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641459+00:00",
+      "MMR_STATUS": "Deficient (MMR-D / MSI-H)"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Mismatch Repair Status",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641462+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "ROS1",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641463+00:00",
+      "LEFT_PARTNER_GENE": "ROS1",
+      "RIGHT_PARTNER_GENE": null
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "ROS1",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641465+00:00",
+      "LEFT_PARTNER_GENE": "ROS1",
+      "RIGHT_PARTNER_GENE": null
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "BFAF",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641468+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "EGFR",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641469+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "KRAS",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641470+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "RET",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641471+00:00",
+      "LEFT_PARTNER_GENE": "RET",
+      "RIGHT_PARTNER_GENE": null
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "NTRC1",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641472+00:00",
+      "LEFT_PARTNER_GENE": "NTRC1",
+      "RIGHT_PARTNER_GENE": "2/3"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "ALK",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641475+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "BRAF",
+      "VARIANT_CATEGORY": "CNV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641475+00:00",
+      "CNV_CALL": "negative"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "ERBB2 (HER2/Neu)",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641476+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "ERBB2 (HER2",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641477+00:00",
+      "LEFT_PARTNER_GENE": "ERBB2 (HER2",
+      "RIGHT_PARTNER_GENE": "Neu)"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "FGFR3",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641479+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "KEAP1",
+      "VARIANT_CATEGORY": "CNV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641480+00:00",
+      "CNV_CALL": "negative"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MET",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641481+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MTAP",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641482+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "NFEL2",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641483+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "NEGL",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641484+00:00",
+      "LEFT_PARTNER_GENE": "NEGL",
+      "RIGHT_PARTNER_GENE": null
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "RBI",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641486+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "RET",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641487+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "STKL1",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641488+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "TP53",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641490+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Tobacco Airway Signature",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641491+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "microsatellite instability (MSI)",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641492+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Tumor Mutational Burden (TMB)",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641493+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Genomic Loss of Heterozygosity",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641494+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Tobacco Airway Signature",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641496+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "ROS1",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641497+00:00",
+      "LEFT_PARTNER_GENE": "ROS1",
+      "RIGHT_PARTNER_GENE": null
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "SETD2",
+      "VARIANT_CATEGORY": "SV",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641498+00:00",
+      "TRUE_PROTEIN_CHANGE": "K2541S",
+      "LEFT_PARTNER_GENE": "SETD2",
+      "RIGHT_PARTNER_GENE": null
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Mismatch Repair Status",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641501+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "Mismatch Repair Status",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641502+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MLH1",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641503+00:00",
+      "MMR_STATUS": "Deficient (MMR-D / MSI-H)"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MSH2",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641505+00:00",
+      "MMR_STATUS": "Proficient (MMR-P / MSS)"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MSH5",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641507+00:00",
+      "MMR_STATUS": "Proficient (MMR-P / MSS)"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PD-L1 (22c3)",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641509+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PD-L1 (SP142)",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641510+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PD-L1 (SP142)",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641512+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PMS2",
+      "VARIANT_CATEGORY": "SIGNATURE",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641513+00:00",
+      "MMR_STATUS": "Deficient (MMR-D / MSI-H)"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "COL2A1",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641514+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "DACH1",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641515+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "MDH2",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641516+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PLCB4",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641517+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PRDM6",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641518+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "PRKD1",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641520+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "RASA1",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641521+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "SMARCA2",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641521+00:00"
+    },
+    {
+      "SAMPLE_ID": "2",
+      "TRUE_HUGO_SYMBOL": "GATA3",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641522+00:00"
+    },
+    {
+      "SAMPLE_ID": "7439568",
+      "TRUE_HUGO_SYMBOL": "EGFR",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641531+00:00",
+      "TRUE_PROTEIN_CHANGE": "E746_A750del",
+      "TRUE_CDNA_CHANGE": "2236_2250del"
+    },
+    {
+      "SAMPLE_ID": "7439568",
+      "TRUE_HUGO_SYMBOL": "EGFR",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": false,
+      "_updated": "2026-06-22T19:14:20.641532+00:00",
+      "TRUE_PROTEIN_CHANGE": "E746_A750del",
+      "TRUE_CDNA_CHANGE": "2235_2249del"
+    },
+    {
+      "SAMPLE_ID": "28067276",
+      "TRUE_HUGO_SYMBOL": "PML/RARA",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": true,
+      "_updated": "2026-06-22T19:14:20.641543+00:00"
+    },
+    {
+      "SAMPLE_ID": "28067276",
+      "TRUE_HUGO_SYMBOL": "factor_v_leiden",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": true,
+      "_updated": "2026-06-22T19:14:20.641544+00:00"
+    },
+    {
+      "SAMPLE_ID": "28067276",
+      "TRUE_HUGO_SYMBOL": "IDH2",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": true,
+      "_updated": "2026-06-22T19:14:20.641545+00:00"
+    },
+    {
+      "SAMPLE_ID": "28067276",
+      "TRUE_HUGO_SYMBOL": "FLT3",
+      "VARIANT_CATEGORY": "MUTATION",
+      "WILDTYPE": true,
+      "_updated": "2026-06-22T19:14:20.641546+00:00"
+    }
+  ]
+}
