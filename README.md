@@ -100,20 +100,30 @@ To run new patient data and trials, do the following:
 
 1. Place the data in the appropriate folder to match the data version: for example, v1_data/ (root level)
    1. The data for clinical, genomic, and trial should be split into the v1_data/clinical, v1_data/trials, and v1_data/genomic folders
-2. Run the matching!
+2. Load the data
    1. SECRETS=SECRETS_JSON.json .venv/bin/python -m matchengine.main load -t v1_data/trials/ -c v1_data/clinical/ -g v1_data/genomic --trial-form json --patient-format json --db v1
+3. Match the data
+   1. python -m matchengine.main match
+
 
 Important:
 - This data gets stored in the mongodb database under the **database named v1** (see the *--db v1* option which overrode where to store the results)
 - Use MongoDB Compass to look at the results
 
+## MongoDB Output
+
+After loading and matching, the database will have four collections:
+
+**`clinical`** — One document per patient. Contains demographic and diagnostic fields: `SAMPLE_ID`, `ONCOTREE_PRIMARY_DIAGNOSIS_NAME`, `BIRTH_DATE`, `VITAL_STATUS`, `GENDER`, `TUMOR_MUTATIONAL_BURDEN_PER_MEGABASE`, etc. This is the primary key table — everything else links back to `SAMPLE_ID`.
+
+**`genomic`** — One document per genomic finding per patient. Each document has a `SAMPLE_ID`, `CLINICAL_ID` (ref to the clinical doc's `_id`), `TRUE_HUGO_SYMBOL`, `VARIANT_CATEGORY` (MUTATION, CNV, SV, SIGNATURE), and variant-specific fields like `TRUE_PROTEIN_CHANGE`, `CNV_CALL`, `MMR_STATUS`, etc. A single patient typically has many genomic documents.
+
+**`trial`** — One document per clinical trial, loaded from your CTML YAML files. Contains the trial metadata and the `match` tree that the engine evaluates against patient data.
+
+**`trial_match`** — One document per patient–trial match result. Contains `sample_id`, `nct_id`, `protocol_no`, `match_level` (arm vs. step), `reason_type` (genomic vs. clinical), `trial_summary_status`, and the specific genomic alteration that triggered the match. This is the collection you query to build reports.
+
 ## Creating a clinical trial report
 
-Once the matching data is in the Mongo database, you can simply export the full trial_match collection as JSON. Ensure you also export the clinical and genomic collections as well. There are 3 pieces of custom for each report that will be needed per patient:
+Once the trial matching has completed: export the data using `python scripts/export_matches.py --db <db> --out example.json --patient <SAMPLE_ID>`.
 
-1. trial_match data - query for the specific patient
-2. clinical - query for the specific patient
-3. genomic - query for the specific patient
-
-The ctm-report-preview repo has functionality that will ingest those 3 files and create a nice PDF report for you :-)
-
+Take the output from this and refer to the **ctm-report-preview** docs to make the PDF or live report.
