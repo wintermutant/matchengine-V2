@@ -1,7 +1,6 @@
 # MatchEngine 
 Welcome to the documentation for the matchengine! The Matchengine is a system designed to match cancer patients to genomically driven clinical trials using Clinical Trial Markup Language (CTML) and patient clinical and genomic data. It utilizes the the MatchminerAPI and MatchminerUI for displaying trial match information.
 
-
 The matchengine can be used on local instances that provide access to private data. If you are interested in the development of new features, or in setting up a local instance of the MatchMiner system, please see the documentation, or contact [matchminer@dfci.harvard.edu](https://app.gitbook.com/@matchminer/s/matchminer)
 
 # Documentation
@@ -15,11 +14,46 @@ The matchengine can be used on local instances that provide access to private da
 - `SECRETS_JSON.json` at the repo root with your connection details (see `SECRETS_JSON.json` for format)
 - Python virtual environment set up at `.venv/`
 
-If `pytest` is not yet installed in the venv:
 ```bash
-.venv/bin/python -c "import ensurepip; ensurepip.bootstrap()"
-.venv/bin/python -m pip install pytest
+uv venv
+uv pip install -e ".[dev]"
 ```
+
+## Setting up MongoDB
+
+Matchengine requires a running MongoDB instance. The easiest way is Docker — no separate `docker pull` needed, `docker run` will pull the image automatically if you don't have it yet.
+
+Before you run the following command, ensure you copy the SECRETS_JSON.example.json to SECRETS_JSON.json and source it so you have access to all the environment variables:
+
+```bash
+$ cp SECRETS_JSON.example.json SECRETS_JSON.json
+# add the appropriate variables - FOR DEV - you can leave it as is or add a fake username/pass like dane/1234
+$ source SECRETS_JSON.example
+```
+
+Next, run the docker container.
+
+```bash
+docker run -d -p 27017:27017 --name=mongo mongo:8.3.2
+```
+
+I recommend using the Docker Desktop app if you want a visual way to see the containers you have deployed.
+
+To stop/start it later:
+```bash
+docker stop mongo
+docker start mongo
+```
+
+Once you have this setup, you can load in data and do a match:
+
+```bash
+python -m matchengine.main load -t matchengine/tests/data/integration_trials --trial-format json --db integration
+python -m Matcher.main --config source/Matcher/config/config.json
+```
+
+Note: the matchengine program uses the contents of your SECRETS_JSON.json to connect to the mongo database 🙂
+
 
 ## Integration Tests
 
